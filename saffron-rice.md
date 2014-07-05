@@ -1,7 +1,8 @@
 # Saffron Rice
 This is a simple, and a little bit fancy side dish that goes great with a piece of grilled meat, or fish. It's a riff on risotto, but is way less labor-intensive.
 
-**Prep time:** 5-10 minutes  |  **Cook time:** 20 minutes
+**Prep time:** 5-10 minutes<br/>
+**Cook time:** 20 minutes
 
 
 ## Ingredients
