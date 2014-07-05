@@ -1,7 +1,8 @@
 # Pazole Rojo
 A traditional Mexican soup with pork and hominy. This is an adaptation of another recipe I found. The original can be found [here](http://www.simplyrecipes.com/recipes/posole_rojo/).
 
-**Prep time:** 20 minutes | **Cook time:** 2 hours
+**Prep time:** 20 minutes<br/>
+**Cook time:** 2 hours
 
 ## Ingredients
 - 2-3 ounces dried guajillo, ancho, or combo of both, chilies
