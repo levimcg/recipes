@@ -2,6 +2,7 @@
 A traditional Mexican soup with pork and hominy. This is an adaptation of another recipe I found. The original can be found [here](http://www.simplyrecipes.com/recipes/posole_rojo/).
 
 **Prep time:** 20 minutes
+
 **Cook time:** 2 hours
 
 ## Ingredients
@@ -13,7 +14,7 @@ A traditional Mexican soup with pork and hominy. This is an adaptation of anothe
 - 1 Tspn ground cumin
 - 1 TBspn dry oregano (preferably Mexican oregano)
 
-## Garnishes
+### Garnishes
 - cilantro chopped
 - white onion diced
 - avocado cut into slices
