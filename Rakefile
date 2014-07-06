@@ -9,7 +9,7 @@ deploy_path = "public_html/directory"
 
 desc "Fire up Jekyll and watch for changes"
 	task :jekyll do
-		system "jekyll serve -w"
+		system "jekyll serve -w --baseurl /"
 	end
 
 desc "build _site directory"

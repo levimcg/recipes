@@ -6,6 +6,6 @@ highlighter: pygments
 permalink: /:title
 sass:
   sass_dir: _sass
-baseurl: http://levimcg.github.io/recipes/
+baseurl: http://levimcg.github.io/recipe-book/
 
 exclude: [README.md, Rakefile]
