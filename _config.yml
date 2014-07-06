@@ -1,10 +1,11 @@
-title: Blanks
-description: A good starting point for building a Jekyll site
+title: Recipe Book
+description: A collection of my favorite recipes
 
 markdown: redcarpet
 highlighter: pygments
 permalink: /:title
 sass:
-    sass_dir: _sass
+  sass_dir: _sass
+baseulr: http://levimcg.github.io/recipes/
 
 exclude: [README.md, Rakefile]
