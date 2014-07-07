@@ -2,9 +2,11 @@
 @import "utilities/variables";
 @import "utilities/mixins";
 @import "utilities/reset";
-@import "utilities/clear-fix";
 
+@import "components/foundation-grids";
 @import "components/typography";
 @import "components/base";
 @import "components/header";
 @import "components/footer";
+
+@import "pages/recipe-list";

@@ -1,0 +1,62 @@
+.intro {
+	padding: 4em 0;
+	background-color: $color-brand-primary;
+	color: #fff;
+	line-height: 1.2;
+
+		h1 {
+			font-size: 3em;
+			font-weight: 700;
+		}
+
+		p {
+			margin-bottom: 0;
+			font-size: 2.25em;
+			font-weight: 300;
+		}
+}
+
+.sidebar {
+
+		ul li {
+			padding: .5em 0;
+		}
+}
+
+.recipe-list {
+	padding: 3em 0;
+	
+		h2 {
+			font-size: 2em;
+			font-weight: 700;
+
+				a {
+					color: $color-text;
+					text-decoration: none;
+
+						&:hover {
+							color: #f6aa9e;
+						}
+				}
+		}
+
+		ol li {
+			padding: 1.5em 0;
+			border-bottom: 1px solid lighten($color-brand-primary, 33%);
+		}
+}
+
+.category-icon {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.key-text {
+	padding-top: .45em;
+}
+
+
+
+
+
+
