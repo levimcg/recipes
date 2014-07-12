@@ -5,6 +5,6 @@ markdown: redcarpet
 highlighter: pygments
 sass:
   sass_dir: _sass
-baseurl: http://levimcg.github.io/recipe-book/
+
 
 exclude: [README.md, Rakefile]
