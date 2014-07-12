@@ -3,7 +3,7 @@ description: A collection of my favorite recipes
 
 markdown: redcarpet
 highlighter: pygments
-permalink: /:title
+permalink: recipe-book/:title
 sass:
   sass_dir: _sass
 baseurl: http://levimcg.github.io/recipe-book/
