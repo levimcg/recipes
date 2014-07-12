@@ -5,24 +5,25 @@
 -----------------------------------------------*/
 
 .site-footer {
-  padding: 2.5em 0;
+  padding: 1.25em 0;
+  background-color: darken($color-background, 3%);
 }
 
 .footer-nav {
   font-size: .8125em;
   color: $color-quiet;
-  text-align: center;
+  float: right;
 
     ul li {
       float: left;
       margin-right: 1em;
 
         a {
-          color: $color-brand-secondary;
+          color: $color-brand-primary;
           text-decoration: none;
 
             &:hover {
-              color: darken($color-brand-secondary, 30%);
+              color: lighten($color-brand-primary, 30%);
               text-decoration: underline;
             }
         }

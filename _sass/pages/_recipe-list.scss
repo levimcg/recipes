@@ -24,7 +24,8 @@
 }
 
 .recipe-list {
-  padding: 3em 0;
+  padding: 3em 0 5em 0;
+
 
     h2 {
       font-size: 1em;
@@ -40,6 +41,7 @@
         a {
           color: $color-brand-primary;
           text-decoration: none;
+          @include hover-trans(.17s);
 
             &:hover {
               color: $color-brand-third;

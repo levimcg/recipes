@@ -1979,7 +1979,7 @@ select {
 
 -----------------------------------------------*/
 body {
-  font-size: 18px;
+  font-size: 120%;
   font-family: "proxima-nova", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-weight: 400;
   line-height: 1.5;
@@ -2014,10 +2014,22 @@ p {
   background-color: #324264;
   font-weight: 300;
 }
+.site-header a {
+  color: #b9c4dc;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.site-header a:hover {
+  color: #52ddaa;
+}
 
 .logo a {
-  color: #fff;
-  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.25em;
 }
 
 .main-nav {
@@ -2025,15 +2037,14 @@ p {
 }
 .main-nav ul li {
   display: inline-block;
+  margin-right: 1em;
+}
+.main-nav ul li:last-child {
+  margin-right: 0;
 }
 .main-nav ul li a {
   display: inline-block;
-  padding: 0 1em;
-  color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
-}
-.main-nav ul li a:hover {
-  text-decoration: underline;
 }
 
 /*-----------------------------------------------
@@ -2042,24 +2053,25 @@ p {
 
 -----------------------------------------------*/
 .site-footer {
-  padding: 2.5em 0;
+  padding: 1.25em 0;
+  background-color: #f3f3e7;
 }
 
 .footer-nav {
   font-size: .8125em;
   color: #8699c3;
-  text-align: center;
+  float: right;
 }
 .footer-nav ul li {
   float: left;
   margin-right: 1em;
 }
 .footer-nav ul li a {
-  color: #f85d5d;
+  color: #324264;
   text-decoration: none;
 }
 .footer-nav ul li a:hover {
-  color: #b40808;
+  color: #758bba;
   text-decoration: underline;
 }
 
@@ -2084,7 +2096,7 @@ p {
 }
 
 .recipe-list {
-  padding: 3em 0;
+  padding: 3em 0 5em 0;
 }
 .recipe-list h2 {
   font-size: 1em;
@@ -2099,6 +2111,11 @@ p {
 .recipe-list h3 a {
   color: #324264;
   text-decoration: none;
+  -webkit-transition: all 0.17s ease;
+  -moz-transition: all 0.17s ease;
+  -ms-transition: all 0.17s ease;
+  -o-transition: all 0.17s ease;
+  transition: all 0.17s ease;
 }
 .recipe-list h3 a:hover {
   color: #52ddaa;
@@ -2119,4 +2136,48 @@ p {
 
 .key-text {
   padding-top: .45em;
+}
+
+.post-page {
+  margin-bottom: 3em;
+}
+.post-page h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+.post-page h2 {
+  margin: 1em 0 .5em 0;
+  font-size: 1.75em;
+  font-weight: 700;
+}
+.post-page h3 {
+  margin: 1em 0 .5em 0;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+.post-page ul {
+  margin-left: 1em;
+  list-style-type: disc;
+}
+.post-page ul li {
+  margin-bottom: .5em;
+}
+.post-page ol {
+  margin-left: 1em;
+  list-style-type: decimal;
+}
+.post-page ol li {
+  padding: 1em 0;
+}
+.post-page ol li:first-child {
+  padding-top: 0;
+}
+
+.post-header {
+  padding: 2em 0;
+}
+
+.post-description {
+  font-size: 2em;
+  line-height: 1.2;
 }
