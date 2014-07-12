@@ -1943,7 +1943,7 @@ select {
 }
 
 .quiet {
-  color: #bbbbbb;
+  color: #8699c3;
 }
 
 .italic {
@@ -1983,6 +1983,8 @@ body {
   font-family: "proxima-nova", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-weight: 400;
   line-height: 1.5;
+  color: #324264;
+  background-color: #f8f8f1;
 }
 
 a {
@@ -2009,7 +2011,7 @@ p {
 -----------------------------------------------*/
 .site-header {
   padding: 1em 0;
-  background-color: #4d9ace;
+  background-color: #324264;
   font-weight: 300;
 }
 
@@ -2039,10 +2041,32 @@ p {
 	Footer
 
 -----------------------------------------------*/
+.site-footer {
+  padding: 2.5em 0;
+}
+
+.footer-nav {
+  font-size: .8125em;
+  color: #8699c3;
+  text-align: center;
+}
+.footer-nav ul li {
+  float: left;
+  margin-right: 1em;
+}
+.footer-nav ul li a {
+  color: #f85d5d;
+  text-decoration: none;
+}
+.footer-nav ul li a:hover {
+  color: #b40808;
+  text-decoration: underline;
+}
+
 .intro {
   padding: 3em 0 4em 0;
-  background-color: #4d9ace;
-  color: #fff;
+  background-color: #324264;
+  color: #52ddaa;
   line-height: 1.2;
 }
 .intro h1 {
@@ -2063,19 +2087,29 @@ p {
   padding: 3em 0;
 }
 .recipe-list h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: #8699c3;
+}
+.recipe-list h3 {
   font-size: 2em;
   font-weight: 700;
 }
-.recipe-list h2 a {
-  color: #333333;
+.recipe-list h3 a {
+  color: #324264;
   text-decoration: none;
 }
-.recipe-list h2 a:hover {
-  color: #f6aa9e;
+.recipe-list h3 a:hover {
+  color: #52ddaa;
 }
 .recipe-list ol li {
-  padding: 1.5em 0;
-  border-bottom: 1px solid #d1e5f2;
+  padding: 2em 0;
+  border-bottom: 1px solid #dbe1ed;
+}
+.recipe-list ol li p {
+  margin-bottom: .5em;
+  color: #8699c3;
 }
 
 .category-icon {

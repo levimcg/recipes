@@ -5,11 +5,12 @@ $base-font-weight: 400;
 $heading-font-family: "proxima-nova", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 $heading-font-weight: 700;
 
+$color-background: #f8f8f1;
 $color-link: #2b48ff;
-$color-text: #333;
-$color-quiet: #bbb;
-$color-brand-primary: #4d9ace;
-$color-brand-secondary: #f6aa9e;
+$color-brand-primary: #324264;
+$color-brand-secondary: #f85d5d;
+$color-brand-third: #52ddaa;
+$color-quiet: lighten($color-brand-primary, 35%);
 
 $bold-font-weight: 700;
 

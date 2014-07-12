@@ -3,3 +3,28 @@
 	Footer
 
 -----------------------------------------------*/
+
+.site-footer {
+  padding: 2.5em 0;
+}
+
+.footer-nav {
+  font-size: .8125em;
+  color: $color-quiet;
+  text-align: center;
+
+    ul li {
+      float: left;
+      margin-right: 1em;
+
+        a {
+          color: $color-brand-secondary;
+          text-decoration: none;
+
+            &:hover {
+              color: darken($color-brand-secondary, 30%);
+              text-decoration: underline;
+            }
+        }
+    }
+}

@@ -1,7 +1,7 @@
 .intro {
   padding: 3em 0 4em 0;
   background-color: $color-brand-primary;
-  color: #fff;
+  color: $color-brand-third;
   line-height: 1.2;
 
     h1 {
@@ -25,24 +25,36 @@
 
 .recipe-list {
   padding: 3em 0;
-  
+
     h2 {
+      font-size: 1em;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      color: $color-quiet;
+    }
+  
+    h3 {
       font-size: 2em;
       font-weight: 700;
 
         a {
-          color: $color-text;
+          color: $color-brand-primary;
           text-decoration: none;
 
             &:hover {
-              color: #f6aa9e;
+              color: $color-brand-third;
             }
         }
     }
 
     ol li {
-      padding: 1.5em 0;
-      border-bottom: 1px solid lighten($color-brand-primary, 33%);
+      padding: 2em 0;
+      border-bottom: 1px solid lighten($color-brand-primary, 60%);
+
+        p {
+          margin-bottom: .5em;
+          color: $color-quiet;
+        }
     }
 }
 
@@ -54,9 +66,3 @@
 .key-text {
   padding-top: .45em;
 }
-
-
-
-
-
-
