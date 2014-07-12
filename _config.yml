@@ -1,10 +1,8 @@
 title: Recipe Book
 description: A collection of my favorite recipes
-
 markdown: redcarpet
-highlighter: pygments
 sass:
   sass_dir: _sass
-
-
-exclude: [README.md, Rakefile]
+baseurl: http://levimcg.github.io/recipe-book/
+permalink: /:title
+exclude: [README.md, Rakefile, Gemfile]
