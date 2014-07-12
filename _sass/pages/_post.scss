@@ -1,0 +1,53 @@
+.post-page {
+  margin-bottom: 3em;
+
+    h1 {
+      font-size: 3em;
+      font-weight: 700;
+    }
+
+    h2 {
+      margin: 1em 0 .5em 0;
+      font-size: 1.75em;
+      font-weight: 700;
+    }
+
+    h3 {
+      margin: 1em 0 .5em 0;
+      font-size: 1.25em;
+      font-weight: 700;
+    }
+
+    ul {
+      margin-left: 1em;
+      list-style-type: disc;
+
+        li {
+          margin-bottom: .5em;
+        }
+    }
+
+    ol {
+      margin-left: 1em;
+      list-style-type: decimal;
+
+        li {
+          padding: 1em 0;
+          // border-bottom: 1px solid lighten($color-brand-primary, 60%);
+
+            &:first-child {
+              padding-top: 0;
+            }
+        }
+    }
+}
+
+.post-header {
+  padding: 2em 0;
+}
+
+.post-description {
+  font-size: 2em;
+  line-height: 1.2;
+}
+
