@@ -4,8 +4,6 @@ layout: post
 description: A traditional Mexican soup with pork and hominy.
 prep: 20 minutes
 cook: 2 hours
-categories:
-  soup
 icon: soup
 ---
 
