@@ -3,6 +3,6 @@ description: A collection of my favorite recipes
 markdown: redcarpet
 sass:
   sass_dir: _sass
-baseurl: http://levimcg.github.io/recipe-book
+baseurl: /recipe-book
 permalink: /:title
 exclude: [README.md, Rakefile, Gemfile]
