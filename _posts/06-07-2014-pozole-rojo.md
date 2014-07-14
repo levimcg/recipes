@@ -5,6 +5,7 @@ description: A traditional Mexican soup with pork and hominy.
 prep: 20 minutes
 cook: 2 hours
 icon: soup
+category: soups
 ---
 
 This is an adaptation of another recipe I found. The original can be found [here](http://www.simplyrecipes.com/recipes/posole_rojo/).
