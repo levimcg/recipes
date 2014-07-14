@@ -11,6 +11,10 @@ body {
   line-height: 1.5;
   color: $color-brand-primary;
   background-color: $color-background;
+
+    @include responsive(40.063em) {
+      font-size: 100%;
+    }
 }
 
 a {

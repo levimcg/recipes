@@ -1986,6 +1986,11 @@ body {
   color: #324264;
   background-color: #f8f8f1;
 }
+@media screen and (max-width: 40.063em) {
+  body {
+    font-size: 100%;
+  }
+}
 
 a {
   color: #2b48ff;
