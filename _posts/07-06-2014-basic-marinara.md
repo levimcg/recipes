@@ -5,7 +5,7 @@ description: This is a ridiculously easy recipe that the basis of my go weeknigh
 prep: 5 minutes
 cook: 45 minutes
 icon: main
-categories: sauces
+categories: sauce
 ---
 
 ## Ingredients

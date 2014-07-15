@@ -1,7 +1,7 @@
 .intro {
   padding: 3em 0 4em 0;
   background-color: $color-brand-primary;
-  color: $color-brand-third;
+  color: $color-background;
   line-height: 1.2;
 
     h1 {
@@ -14,12 +14,17 @@
       font-size: 2.25em;
       font-weight: 300;
     }
-}
 
-.sidebar {
+    @include responsive(40.063em) {
+      padding: 1em 0 2em 0;
 
-    ul li {
-      padding: .5em 0;
+        h1 {
+          font-size: 2.25em;
+        }
+
+        p {
+          font-size: 1.5em;
+        }
     }
 }
 
@@ -44,7 +49,7 @@
           @include hover-trans(.17s);
 
             &:hover {
-              color: $color-brand-third;
+              color: $color-brand-secondary;
             }
         }
     }
@@ -68,3 +73,15 @@
 .key-text {
   padding-top: .45em;
 }
+
+.all-recipes {
+
+  ul li {
+    padding: 1em 0;
+    border-bottom: 1px solid $color-quiet;
+  }
+}
+
+
+
+

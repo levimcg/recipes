@@ -18,11 +18,11 @@ body {
 }
 
 a {
-  color: $color-link;
-  text-decoration: underline;
+  color: $color-brand-secondary;
+  text-decoration: none;
 
     &:hover {
-      text-decoration: none;
+      color: darken($color-brand-secondary, 15%);
     }
 }
 
