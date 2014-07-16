@@ -1993,11 +1993,11 @@ body {
 }
 
 a {
-  color: #ec5d5d;
+  color: #e06c6c;
   text-decoration: none;
 }
 a:hover {
-  color: #e21b1b;
+  color: #d32d2d;
 }
 
 p {
@@ -2029,12 +2029,12 @@ p {
   transition: all 0.2s ease;
 }
 .site-header a:hover {
-  color: #52ddaa;
+  color: #e06c6c;
 }
 
 .logo a {
   font-weight: 700;
-  font-size: 1.25em;
+  font-size: 1.125em;
 }
 
 .main-nav {
@@ -2052,34 +2052,6 @@ p {
   text-decoration: none;
 }
 
-/*-----------------------------------------------
-
-	Footer
-
------------------------------------------------*/
-.site-footer {
-  padding: 1.25em 0;
-  background-color: #f3f3e7;
-}
-
-.footer-nav {
-  font-size: .8125em;
-  color: #8699c3;
-  float: right;
-}
-.footer-nav ul li {
-  float: left;
-  margin-right: 1em;
-}
-.footer-nav ul li a {
-  color: #324264;
-  text-decoration: none;
-}
-.footer-nav ul li a:hover {
-  color: #758bba;
-  text-decoration: underline;
-}
-
 .intro {
   padding: 3em 0 4em 0;
   background-color: #324264;
@@ -2089,6 +2061,7 @@ p {
 .intro h1 {
   font-size: 3em;
   font-weight: 700;
+  color: #e06c6c;
 }
 .intro p {
   margin-bottom: 0;
@@ -2107,18 +2080,25 @@ p {
   }
 }
 
+.text-center {
+  text-align: center;
+}
+
 .recipe-list {
   padding: 3em 0 5em 0;
 }
 .recipe-list h2 {
+  padding: 0 0 .35em 0;
   font-size: 1em;
   text-transform: uppercase;
   letter-spacing: .04em;
   color: #8699c3;
+  border-bottom: 1px solid #dbe1ed;
 }
 .recipe-list h3 {
   font-size: 2em;
   font-weight: 700;
+  letter-spacing: -.025em;
 }
 .recipe-list h3 a {
   color: #324264;
@@ -2130,29 +2110,25 @@ p {
   transition: all 0.17s ease;
 }
 .recipe-list h3 a:hover {
-  color: #ec5d5d;
+  color: #e06c6c;
 }
-.recipe-list ol li {
-  padding: 2em 0;
+.recipe-list ul li {
+  padding: 1.25em 0 .875em 0;
   border-bottom: 1px solid #dbe1ed;
 }
-.recipe-list ol li p {
+
+.description p {
   margin-bottom: .5em;
   color: #8699c3;
 }
 
-.category-icon {
-  width: 70%;
-  margin: 0 auto;
+.category-meta {
+  font-size: .8125em;
 }
 
-.key-text {
-  padding-top: .45em;
-}
-
-.all-recipes ul li {
-  padding: 1em 0;
-  border-bottom: 1px solid #8699c3;
+.category-link {
+  color: #324264;
+  font-weight: 700;
 }
 
 .post-page {
@@ -2161,6 +2137,7 @@ p {
 .post-page h1 {
   font-size: 3em;
   font-weight: 700;
+  letter-spacing: -.025em;
 }
 .post-page h2 {
   margin: 1em 0 .5em 0;
@@ -2206,18 +2183,58 @@ p {
 }
 .time p {
   margin-bottom: 0;
+  color: #8699c3;
 }
 
 .lighten {
   color: #8699c3;
 }
 
-@media screen and (max-width: 40.063em) {
-  .post-page h1 {
-    font-size: 2.25em;
-  }
+.bold {
+  font-weight: 700;
+  color: #324264;
+}
 
-  .post-description {
-    font-size: 1.5em;
-  }
+.archive h2 {
+  border-bottom: none;
+}
+.archive h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1;
+}
+.archive ul li:first-child {
+  padding-top: 0;
+}
+.archive ul li:last-child {
+  margin-bottom: 3em;
+}
+
+/*-----------------------------------------------
+
+	Footer
+
+-----------------------------------------------*/
+.site-footer {
+  padding: 1.25em 0;
+  background-color: #f3f3e7;
+}
+
+.footer-nav {
+  font-size: .8125em;
+  color: #8699c3;
+  float: right;
+}
+.footer-nav ul li {
+  float: left;
+  margin-right: 1em;
+}
+.footer-nav ul li a {
+  color: #e06c6c;
+  text-decoration: none;
+}
+.footer-nav ul li a:hover {
+  color: #758bba;
+  text-decoration: underline;
 }

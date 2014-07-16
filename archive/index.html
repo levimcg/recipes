@@ -1,0 +1,35 @@
+---
+title: Recipe Archive
+layout: default
+---
+
+<section class="intro">
+  <div class="row">
+    <div class="large-8 small-centered columns text-center">
+      <h1>Recipe Archive</h1>
+      <p>One big-ass list of all my recipes</p>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="recipe-list archive">
+    <div class="row">
+      <div class="large-6 medium-8 small-centered columns">
+        {% for category in site.categories %}
+        <div class="row">
+          <div class="medium-3 columns">
+            <h2>{{ category[0] }}</h2>
+          </div>
+          <div class="medium-9 columns">
+            <ul class="archive-posts">
+          {% for post in category[1] %}
+              <li><h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3></li>
+          {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div><!-- End row -->
+  </div><!-- End recipe-list -->
+</section>

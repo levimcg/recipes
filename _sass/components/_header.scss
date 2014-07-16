@@ -16,7 +16,7 @@
         @include hover-trans(.2s);
 
         &:hover {
-          color: $color-brand-third;
+          color: $color-brand-secondary;
         }
     }
 }
@@ -25,7 +25,7 @@
 
     a {
       font-weight: 700;
-      font-size: 1.25em;
+      font-size: 1.125em;
     }
 }
 

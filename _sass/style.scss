@@ -1,13 +1,14 @@
 
-@import "utilities/variables";
-@import "utilities/mixins";
-@import "utilities/reset";
+@import "global/variables";
+@import "global/mixins";
+@import "global/reset";
+@import "global/foundation-grids";
 
-@import "components/foundation-grids";
 @import "components/typography";
 @import "components/base";
 @import "components/header";
+@import "components/intro";
+@import "components/recipe-list";
+@import "components/single-post";
+@import "components/recipe-archive";
 @import "components/footer";
-
-@import "pages/recipe-list";
-@import "pages/post";

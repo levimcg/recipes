@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Welcome
+bodyClass: home
 ---
 <section class="intro">
   <div class="row">
-    <div class="large-12 columns">
+    <div class="large-8 columns">
       <h1>Not a Fucking Food Blog.</h1>
       <p>These are some of my favorite recipes as well as some new ones I’m just trying out&mdash;a digital recipe book.</p>
     </div>
@@ -17,15 +18,18 @@ title: Welcome
         <header>
           <h2>Latest recipes</h2>
         </header>
-        {% for post in site.posts %}
-          <ol>
+        {% for post in site.posts limit:5 %}
+          <ul>
             <li>
               <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
               <div class="description">
                 <p>{{ post.description }}</p>
               </div>
+              <div class="category-meta">
+                <p>filed under: <span class="category-link">{{ post.categories}}</span></p>
+              </div>
             </li>
-          </ol>
+          </ul>
         {% endfor %}
       </div>
     </div>

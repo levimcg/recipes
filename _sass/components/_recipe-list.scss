@@ -1,0 +1,60 @@
+.recipe-list {
+  padding: 3em 0 5em 0;
+
+    h2 {
+      padding: 0 0 .35em 0;
+      font-size: 1em;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      color: $color-quiet;
+      border-bottom: 1px solid lighten($color-brand-primary, 60%);
+    }
+  
+    h3 {
+      font-size: 2em;
+      font-weight: 700;
+      letter-spacing: -.025em;
+
+        a {
+          color: $color-brand-primary;
+          text-decoration: none;
+          @include hover-trans(.17s);
+
+            &:hover {
+              color: $color-brand-secondary;
+            }
+        }
+    }
+
+    ul li {
+      padding: 1.25em 0 .875em 0;
+      border-bottom: 1px solid lighten($color-brand-primary, 60%);
+    }
+}
+
+.description {
+
+    p {
+      margin-bottom: .5em;
+      color: $color-quiet;
+    }
+}
+
+.category-meta {
+  font-size: .8125em;
+}
+
+.category-link {
+  color: $color-brand-primary;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+

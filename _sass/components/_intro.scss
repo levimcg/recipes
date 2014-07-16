@@ -1,0 +1,34 @@
+.intro {
+  padding: 3em 0 4em 0;
+  background-color: $color-brand-primary;
+  color: $color-background;
+  line-height: 1.2;
+
+    h1 {
+      font-size: 3em;
+      font-weight: 700;
+      color: $color-brand-secondary;
+    }
+
+    p {
+      margin-bottom: 0;
+      font-size: 2.25em;
+      font-weight: 300;
+    }
+
+    @include responsive(40.063em) {
+      padding: 1em 0 2em 0;
+
+        h1 {
+          font-size: 2.25em;
+        }
+
+        p {
+          font-size: 1.5em;
+        }
+    }
+}
+
+.text-center {
+  text-align: center;
+}
