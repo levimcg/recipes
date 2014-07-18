@@ -1,21 +1,22 @@
-<div class="site-header">
-  <header>
-    <div class="row">
-      <div class="large-6 columns">
+<div class="site-wrapper">
+  <div id="page">
+    <div class="site-header">
+      <div class="site-header-inner">
+        <a href="#" class="open-panel"><i class="fa fa-bars"></i></a>
         <div class="logo">
-          <!-- <a href="{{ site.baseurl }}"><img src="img/logo.png"></a> -->
-          <h1><a href="{{ site.baseurl }}/">Recipe Book</a></h1>
+          <h1><a href="{{ site.baseurl }}/">{{  site.title }}</h1>
+        </div>
+        <div class="main-nav">
+          <nav role="navigation">
+            <a href="#" class="close-panel"><i class="fa fa-times-circle"></i></a>
+            <ul class="menu">
+              <li><a class="home-nav" href="{{ site.baseurl }}/"><span style="margin-right: .85em; color: rgba(255, 255, 255, .5);"><i class="fa fa-bolt"></i></span>Latest Recipes</a></li>
+              <li><a class="archive-nav" href="{{ site.baseurl }}/archive/ "><span style="margin-right: .85em; color: rgba(255, 255, 255, .5);"><i class="fa fa-archive"></i></span>Archive</a></li>
+              <!-- <li><a class="about-nav" href="#"><span style="margin-right: .85em; color: rgba(255, 255, 255, .5);"><i class="fa fa-spoon"></i></span>About</a></li> -->
+              <li><a href="https://github.com/levimcg/recipe-book/tree/gh-pages" target="_blank"><span style="margin-right: .85em; color: rgba(255, 255, 255, .5);"><i class="fa fa-github"></i></span>Source on Github</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
-      <div class="large-6 columns">
-        <nav class="main-nav">
-          <ul>
-            <li><a href="{{ site.baseurl }}/">Latest Recipes</a></li>
-            <li><a href="{{ site.baseurl }}/archive/">Archive</a></li>
-            <li><a href="{{ site.baseurl }}/">About</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-</div>
+    </div><!-- end site-header -->
+    <div id="content"><!-- ends in 'footer.html' -->

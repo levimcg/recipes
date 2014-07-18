@@ -5,11 +5,18 @@ layout: default
 <div class="post-page">
   <header class="post-header">
     <div class="row">
-      <div class="medium-10 large-7 medium-centered columns">
+      <div class="large-10 medium-10 medium-centered columns">
         <h1>{{ page.title }}</h1>
         <div class="post-description">
           <p>{{ page.description }}</p>
         </div>
+      </div>
+    </div>
+  </header>
+
+  <article class="recipe-instructions">
+    <div class="row">
+      <div class="large-7 medium-10 medium-centered columns">
         <div class="time-wrapper">
           <div class="time">
             <p>Prep time: <span class="bold">{{ page.prep }}</span></p>
@@ -20,11 +27,8 @@ layout: default
         </div>
       </div>
     </div>
-  </header>
-
-  <article class="recipe-instructions">
     <div class="row">
-      <div class="medium-10 large-7 medium-centered columns">
+      <div class="large-7 medium-10 medium-centered columns">
         {{ content }}
       </div>
     </div>

@@ -40,6 +40,14 @@
             }
         }
     }
+
+    strong {
+      font-weight: 700;
+    }
+
+    em {
+      font-style: italic;
+    }
 }
 
 .post-header {
@@ -69,4 +77,16 @@
 .bold {
   font-weight: 700;
   color: $color-brand-primary;
+}
+
+@include responsive(50em) {
+  .post-header {
+    padding-top: 1em;
+  }
+
+  .post-description {
+    p {
+      margin-bottom: 0;
+    }
+  }
 }

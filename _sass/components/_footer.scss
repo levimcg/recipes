@@ -12,14 +12,13 @@
 .footer-nav {
   font-size: .8125em;
   color: $color-quiet;
-  float: right;
 
     ul li {
       float: left;
       margin-right: 1em;
 
         a {
-          color: $color-brand-secondary;
+          color: $color-brand-primary;
           text-decoration: none;
 
             &:hover {
@@ -29,3 +28,22 @@
         }
     }
 }
+
+@include responsive(50em) {
+  .footer-nav {
+    float: none;
+
+    ul li {
+      float: none;
+      margin-right: 0;
+
+      a {
+        display: block;
+        padding: 1em 0;
+      }
+    }
+  }
+
+} 
+
+

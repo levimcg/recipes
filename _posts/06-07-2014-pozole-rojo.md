@@ -1,11 +1,11 @@
 ---
 title: Pozole Rojo
 layout: post
+body: archive-page
 description: A traditional Mexican soup with pork and hominy. This is an adaptation of another recipe I found. The original can be found <a href="http://www.simplyrecipes.com/recipes/posole_rojo/" target="_blank">here</a>.
 prep: 20 minutes
 cook: 2 hours
-icon: soup
-category: soup
+category: soups
 ---
 
 ## Ingredients

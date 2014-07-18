@@ -1,0 +1,7 @@
+%clearfixer {
+  &:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+}

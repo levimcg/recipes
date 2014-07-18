@@ -1,48 +1,212 @@
-/*-----------------------------------------------
+/*--------------------------------------------
 
-  Header
+  Start header and off-canvas nav
 
------------------------------------------------*/
+--------------------------------------------*/
 
 .site-header {
-  padding: 1em 0;
+  @extend %clearfixer;
+  padding: .75em 0;
   background-color: $color-brand-primary;
-  font-weight: 300;
 
+  a {
+    color: $color-background;
+    @include hover-trans(.3s);
+
+    &:hover {
+      color: $color-brand-secondary;
+    }
+  }
+}
+
+.site-header-inner {
+  @extend %clearfixer;
+  display: block;
+  max-width: 1080px;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+
+  h1 {
+    line-height: 0;
+  }
+
+  a {
+    display: inline-block;
+    padding-top: 1.25em;
+  }
+}
+
+#content {
+  clear: both;
+}
+
+ul.menu {
+  padding: 0;
+  float: right;
+  
+  li {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; /* Fixes Firefox bug */
+    box-sizing: border-box;
+    
     a {
-      color: lighten($color-brand-primary, 50%);
-      text-decoration: none;
-        
-        @include hover-trans(.2s);
+      display: inline-block;
+      padding: .5em;
 
         &:hover {
           color: $color-brand-secondary;
         }
     }
-}
 
-.logo {
-
-    a {
-      font-weight: 700;
-      font-size: 1.125em;
+    i {
+      display: none;
     }
+  }
 }
 
-.main-nav {
-  text-align: right;
+/*--------------------------------------------
 
-    ul li {
-      display: inline-block;
-      margin-right: 1em;
+  Current nav states
 
-        &:last-child {
-          margin-right: 0;
-        }
+--------------------------------------------*/
+
+.home-page .home-nav {
+  color: $color-brand-secondary;
+}
+
+.archive-page .archive-nav {
+  color: $color-brand-secondary;
+}
+
+/*--------------------------------------------
+
+  Hamburger icons
+
+--------------------------------------------*/
+
+a.open-panel, a.close-panel {
+  display: none;
+}
+
+a.open-panel {
+  padding-top: .5em;
+}
+
+i.fa-bars {
+  color: $color-background;
+  font-size: 2em;
+}
+
+.fa-times-circle {
+  color: $color-brand-secondary;
+  font-size: 2em;
+}
+
+.close-panel .fa {
+  padding-top: .25em;
+}
+
+#menu nav ul li a i.fa {
+  display: block;
+  margin-right: .5em;
+  color: $color-quiet;
+}
+
+@media only screen and (max-width: 50em) {
+  
+  #content {
+    padding-top: 0;
+  }
+
+  .logo {
+    padding-top: .35em;
+    float: left;
+  }
+  
+ /* Move nav off screen, setup transitions */
+ .main-nav nav {
+    width: 70%;
+    position: absolute;
+    left: -70%;
+    top: 0;
+    height: 100%;
+    background: darken($color-brand-primary, 6%);
+  }
+  
+  /* Display nav items vertically */
+  ul.menu {
+    float: none;
+    margin-top: 1.5em;
+    border-top: 1px solid $color-brand-primary;
+    
+    li {
+      float: none;
+      width: 100%;
+      text-align: left;
+      box-sizing: border-box;
+      border-bottom: 1px solid $color-brand-primary;
 
       a {
-        display: inline-block;
-        text-decoration: none;
+        display: block;
+        padding: 1.5em;
+      }
+
+      i {
+        display: inline;
       }
     }
+  }
+  
+  /* Reveal open/close buttons */
+  a.open-panel, a.close-panel {
+    display: inline;
+  }
+
+  .open-panel {
+    float: left;
+    margin-right: 2em;
+  }
+  
+  .close-panel {
+    position: relative;
+    top: .5em;
+    left: 1em;
+  }
+
+  .openNav #page {
+    left: 0;
+    -webkit-transform: translate3d(70%, 0, 0);
+    -moz-transform: translate3d(70%, 0, 0);
+    -ms-transform: translate3d(70%, 0, 0);
+    -o-transform: translate3d(70%, 0, 0);
+    transform: translate3d(70%, 0, 0);
+    -webkit-transition: -webkit-transform 500ms ease;
+    -moz-transition: -moz-transform 500ms ease;
+    -o-transition: -o-transform 500ms ease;
+    transition: transform 500ms ease;
+  }
+  
+  /* When the panel is closed, transition the page back to the left */
+  #page {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 500ms ease;
+    -moz-transition: -moz-transform 500ms ease;
+    -o-transition: -o-transform 500ms ease;
+    transition: transform 500ms ease;
+  }
 }
+
+

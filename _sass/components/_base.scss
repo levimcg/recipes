@@ -8,6 +8,7 @@ body {
   font-size: 120%;
   font-family: $base-font-family;
   font-weight: $base-font-weight;
+  font-style: normal;
   line-height: 1.5;
   color: $color-brand-primary;
   background-color: $color-background;
@@ -15,6 +16,10 @@ body {
     @include responsive(40.063em) {
       font-size: 100%;
     }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $color-brand-primary;
 }
 
 a {
@@ -30,7 +35,10 @@ p {
   margin-bottom: 1.5em;
 }
 
-.wrapper {
+.site-wrapper {
+  overflow: hidden;
+}
+
+.row {
   max-width: $site-max-width;
-  margin: 0 auto;
 }
