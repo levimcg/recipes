@@ -417,6 +417,7 @@ i.fa-bars {
 @media screen and (max-width: 40.063em) {
   .intro {
     padding: .65em 0 2.5em 0;
+    text-align: center;
   }
 }
 .recipe-list {
