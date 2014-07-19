@@ -107,7 +107,7 @@ table {
 }
 
 .quiet {
-  color: #8699c3;
+  color: #546fa8;
 }
 
 .italic {
@@ -151,9 +151,14 @@ body {
   color: #324264;
   background-color: #f8f8f1;
 }
-@media screen and (max-width: 40.063em) {
+@media screen and (max-width: 50em) {
   body {
     font-size: 100%;
+  }
+}
+@media screen and (max-width: 40.063em) {
+  body {
+    font-size: 90%;
   }
 }
 
@@ -181,13 +186,22 @@ p {
   max-width: 1080px;
 }
 
+.lighten {
+  color: #546fa8;
+}
+
+.bold {
+  font-weight: 700;
+  color: #324264;
+}
+
 /*--------------------------------------------
 
   Start header and off-canvas nav
 
 --------------------------------------------*/
 .site-header {
-  padding: .75em 0;
+  padding: .75em 0 .5em 0;
   background-color: #324264;
 }
 .site-header a {
@@ -292,7 +306,7 @@ i.fa-bars {
 #menu nav ul li a i.fa {
   display: block;
   margin-right: .5em;
-  color: #8699c3;
+  color: #546fa8;
 }
 
 @media only screen and (max-width: 50em) {
@@ -359,10 +373,10 @@ i.fa-bars {
     -ms-transform: translate3d(70%, 0, 0);
     -o-transform: translate3d(70%, 0, 0);
     transform: translate3d(70%, 0, 0);
-    -webkit-transition: -webkit-transform 500ms ease;
-    -moz-transition: -moz-transform 500ms ease;
-    -o-transition: -o-transform 500ms ease;
-    transition: transform 500ms ease;
+    -webkit-transition: -webkit-transform 400ms ease;
+    -moz-transition: -moz-transform 400ms ease;
+    -o-transition: -o-transform 400ms ease;
+    transition: transform 400ms ease;
   }
 
   /* When the panel is closed, transition the page back to the left */
@@ -373,10 +387,10 @@ i.fa-bars {
     -ms-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    -webkit-transition: -webkit-transform 500ms ease;
-    -moz-transition: -moz-transform 500ms ease;
-    -o-transition: -o-transform 500ms ease;
-    transition: transform 500ms ease;
+    -webkit-transition: -webkit-transform 400ms ease;
+    -moz-transition: -moz-transform 400ms ease;
+    -o-transition: -o-transform 400ms ease;
+    transition: transform 400ms ease;
   }
 }
 .intro {
@@ -395,22 +409,16 @@ i.fa-bars {
   font-size: 2.25em;
   font-weight: 300;
 }
-@media screen and (max-width: 40.063em) {
-  .intro {
-    padding: 1em 0 2em 0;
-  }
-  .intro h1 {
-    font-size: 2.25em;
-  }
-  .intro p {
-    font-size: 1.5em;
-  }
-}
 
 .text-center {
   text-align: center;
 }
 
+@media screen and (max-width: 40.063em) {
+  .intro {
+    padding: .65em 0 2.5em 0;
+  }
+}
 .recipe-list {
   padding: 3em 0 5em 0;
 }
@@ -419,7 +427,7 @@ i.fa-bars {
   font-size: 1em;
   text-transform: uppercase;
   letter-spacing: .04em;
-  color: #8699c3;
+  color: #546fa8;
   border-bottom: 1px solid #dbe1ed;
 }
 .recipe-list h3 {
@@ -446,12 +454,12 @@ i.fa-bars {
 
 .description p {
   margin-bottom: .5em;
-  color: #8699c3;
+  color: #546fa8;
 }
 
 .category-meta {
   font-size: .8125em;
-  color: #8699c3;
+  color: #546fa8;
 }
 
 .category-link {
@@ -517,16 +525,17 @@ i.fa-bars {
 }
 .time p {
   margin-bottom: 0;
-  color: #8699c3;
+  color: #546fa8;
 }
 
-.lighten {
-  color: #8699c3;
+i.fa-chevron-left {
+  margin-right: 1em;
+  color: #e06c6c;
 }
 
-.bold {
-  font-weight: 700;
-  color: #324264;
+i.fa-chevron-right {
+  margin-left: 1em;
+  color: #e06c6c;
 }
 
 @media screen and (max-width: 50em) {
@@ -566,7 +575,7 @@ i.fa-bars {
 
 .footer-nav {
   font-size: .8125em;
-  color: #8699c3;
+  color: #546fa8;
 }
 .footer-nav ul li {
   float: left;

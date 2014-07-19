@@ -13,8 +13,12 @@ body {
   color: $color-brand-primary;
   background-color: $color-background;
 
-    @include responsive(40.063em) {
+    @include responsive(50em){
       font-size: 100%;
+    }
+
+    @include responsive(40.063em) {
+      font-size: 90%;
     }
 }
 
@@ -41,4 +45,13 @@ p {
 
 .row {
   max-width: $site-max-width;
+}
+
+.lighten {
+  color: $color-quiet;
+}
+
+.bold {
+  font-weight: 700;
+  color: $color-brand-primary;
 }

@@ -6,7 +6,7 @@ body: home-page
 <section class="intro">
   <div class="row">
     <div class="large-10 columns">
-      <h1>Not a Fucking Food Blog.</h1>
+      <h1>Not a Food Blog.</h1>
       <p>These are some of my favorite recipes as well as some new ones I’m just trying out&mdash;a digital recipe book.</p>
     </div>
   </div>
@@ -15,22 +15,24 @@ body: home-page
   <div class="recipe-list">
     <div class="row">
       <div class="large-7 medium-10 small-centered columns">
-        <header>
-          <h2>Latest recipes</h2>
-        </header>
-        {% for post in site.posts limit:5 %}
-          <ul>
-            <li>
-              <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-              <div class="description">
-                <p>{{ post.description }}</p>
-              </div>
-              <div class="category-meta">
-                <p>filed under: <span class="category-link">{{ post.categories}}</span></p>
-              </div>
-            </li>
-          </ul>
-        {% endfor %}
+        <section id="recent-recipes">
+          <header>
+            <h2>Latest recipes</h2>
+          </header>
+          {% for post in site.posts limit:5 %}
+            <ul>
+              <li>
+                <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+                <div class="description">
+                  <p>{{ post.description }}</p>
+                </div>
+                <div class="category-meta">
+                  <p>filed under: <span class="category-link">{{ post.categories}}</span></p>
+                </div>
+              </li>
+            </ul>
+          {% endfor %}
+        </section>
       </div>
     </div>
   </div><!-- End recipe-list -->

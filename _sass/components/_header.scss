@@ -6,7 +6,7 @@
 
 .site-header {
   @extend %clearfixer;
-  padding: .75em 0;
+  padding: .75em 0 .5em 0;
   background-color: $color-brand-primary;
 
   a {
@@ -188,10 +188,10 @@ i.fa-bars {
     -ms-transform: translate3d(70%, 0, 0);
     -o-transform: translate3d(70%, 0, 0);
     transform: translate3d(70%, 0, 0);
-    -webkit-transition: -webkit-transform 500ms ease;
-    -moz-transition: -moz-transform 500ms ease;
-    -o-transition: -o-transform 500ms ease;
-    transition: transform 500ms ease;
+    -webkit-transition: -webkit-transform 400ms ease;
+    -moz-transition: -moz-transform 400ms ease;
+    -o-transition: -o-transform 400ms ease;
+    transition: transform 400ms ease;
   }
   
   /* When the panel is closed, transition the page back to the left */
@@ -202,10 +202,10 @@ i.fa-bars {
     -ms-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    -webkit-transition: -webkit-transform 500ms ease;
-    -moz-transition: -moz-transform 500ms ease;
-    -o-transition: -o-transform 500ms ease;
-    transition: transform 500ms ease;
+    -webkit-transition: -webkit-transform 400ms ease;
+    -moz-transition: -moz-transform 400ms ease;
+    -o-transition: -o-transform 400ms ease;
+    transition: transform 400ms ease;
   }
 }
 
