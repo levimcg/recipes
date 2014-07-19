@@ -3,6 +3,6 @@ description: A collection of my favorite recipes
 markdown: redcarpet
 sass:
   sass_dir: _sass
-baseurl: /recipe-book
+baseurl: /
 permalink: recipes/:categories/:title.html
 exclude: [README.md, Rakefile, Gemfile]
