@@ -81,6 +81,13 @@ i.fa-chevron-right {
 }
 
 @include responsive(50em) {
+
+  .post-page {
+    h1 {
+      line-height: 1.1;
+    }
+  }
+
   .post-header {
     padding-top: 1em;
   }

@@ -452,6 +452,11 @@ i.fa-bars {
   padding: 1.25em 0 .875em 0;
   border-bottom: 1px solid #dbe1ed;
 }
+@media screen and (max-width: 40.063em) {
+  .recipe-list h3 {
+    line-height: 1.1;
+  }
+}
 
 .description p {
   margin-bottom: .5em;
@@ -540,6 +545,10 @@ i.fa-chevron-right {
 }
 
 @media screen and (max-width: 50em) {
+  .post-page h1 {
+    line-height: 1.1;
+  }
+
   .post-header {
     padding-top: 1em;
   }
