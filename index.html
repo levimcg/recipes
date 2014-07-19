@@ -22,7 +22,7 @@ body: home-page
           {% for post in site.posts limit:5 %}
             <ul>
               <li>
-                <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 <div class="description">
                   <p>{{ post.description }}</p>
                 </div>
