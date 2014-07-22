@@ -1,5 +1,5 @@
-title: Recipe Book
-description: A collection of my favorite recipes
+title: Not a food blog.
+tagline: A digital recipe book—These are some of my favorite along with some new ones I’m just trying out.
 markdown: redcarpet
 sass:
   sass_dir: _sass
