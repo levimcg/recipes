@@ -8,6 +8,7 @@
   @extend %clearfixer;
   padding: .75em 0 .5em 0;
   background-color: $color-brand-primary;
+  font-weight: 300;
 
   a {
     color: $color-background;
@@ -38,6 +39,7 @@
   a {
     display: inline-block;
     padding-top: 1.25em;
+    font-weight: 700;
   }
 }
 

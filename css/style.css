@@ -72,7 +72,7 @@ table {
 
 -----------------------------------------------*/
 .h1, .typography h1, .typography .h1, .h2, .typography h2, .typography .h2, .h3, .typography h3, .typography .h3, .h4, .typography h4, .typography .h4, .h5, .typography h5, .typography .h5, .h6, .typography h6, .typography .h6 {
-  font-family: "proxima-nova", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-family: "jaf-bernino-sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-weight: 700;
 }
 
@@ -143,8 +143,8 @@ table {
 
 -----------------------------------------------*/
 body {
-  font-size: 125%;
-  font-family: "proxima-nova", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 20px;
+  font-family: "jaf-bernino-sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
@@ -153,12 +153,12 @@ body {
 }
 @media screen and (max-width: 50em) {
   body {
-    font-size: 110%;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 40.063em) {
   body {
-    font-size: 100%;
+    font-size: 16px;
   }
 }
 
@@ -203,6 +203,7 @@ p {
 .site-header {
   padding: .75em 0 .5em 0;
   background-color: #324264;
+  font-weight: 300;
 }
 .site-header a {
   color: #f8f8f1;
@@ -233,6 +234,7 @@ p {
 .logo a {
   display: inline-block;
   padding-top: 1.25em;
+  font-weight: 700;
 }
 
 #content {
@@ -419,6 +421,10 @@ i.fa-bars {
     padding: .65em 0 2.5em 0;
     text-align: center;
   }
+  .intro h1 {
+    line-height: 1;
+    margin-bottom: .5em;
+  }
 }
 .recipe-list {
   padding: 3em 0 5em 0;
@@ -434,7 +440,7 @@ i.fa-bars {
 .recipe-list h3 {
   font-size: 2em;
   font-weight: 700;
-  letter-spacing: -.025em;
+  letter-spacing: -.035em;
 }
 .recipe-list h3 a {
   color: #324264;
@@ -479,12 +485,13 @@ i.fa-bars {
 .post-page h1 {
   font-size: 3em;
   font-weight: 700;
-  letter-spacing: -.025em;
+  letter-spacing: -.05em;
 }
 .post-page h2 {
   margin: 1em 0 .5em 0;
   font-size: 1.75em;
   font-weight: 700;
+  letter-spacing: -.03em;
 }
 .post-page h3 {
   margin: 1em 0 .5em 0;
@@ -518,6 +525,10 @@ i.fa-bars {
 .post-header {
   padding-top: 2em;
 }
+.post-header .post-description {
+  font-weight: 300;
+  letter-spacing: -.025em;
+}
 
 .post-description {
   margin-bottom: 1em;
@@ -546,7 +557,7 @@ i.fa-chevron-right {
 
 @media screen and (max-width: 50em) {
   .post-page h1 {
-    line-height: 1.1;
+    line-height: 1;
   }
 
   .post-header {

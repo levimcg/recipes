@@ -4,13 +4,14 @@
     h1 {
       font-size: 3em;
       font-weight: 700;
-      letter-spacing: -.025em;
+      letter-spacing: -.05em;
     }
 
     h2 {
       margin: 1em 0 .5em 0;
       font-size: 1.75em;
       font-weight: 700;
+      letter-spacing: -.03em;
     }
 
     h3 {
@@ -52,6 +53,11 @@
 
 .post-header {
   padding-top: 2em;
+
+    .post-description {
+      font-weight: 300;
+      letter-spacing: -.025em;
+    }
 }
 
 .post-description {
@@ -84,7 +90,7 @@ i.fa-chevron-right {
 
   .post-page {
     h1 {
-      line-height: 1.1;
+      line-height: 1;
     }
   }
 
