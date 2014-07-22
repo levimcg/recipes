@@ -25,6 +25,10 @@
               color: lighten($color-brand-primary, 30%);
               text-decoration: underline;
             }
+
+             i.fa {
+            font-size: 1.2em;
+            }
         }
     }
 }

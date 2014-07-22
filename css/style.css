@@ -201,7 +201,7 @@ p {
 
 --------------------------------------------*/
 .site-header {
-  padding: .75em 0 .5em 0;
+  padding: 1em 0 .5em 0;
   background-color: #324264;
   font-weight: 300;
 }
@@ -226,6 +226,9 @@ p {
 }
 
 .logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: .4em;
   float: left;
 }
 .logo h1 {
@@ -233,7 +236,6 @@ p {
 }
 .logo a {
   display: inline-block;
-  padding-top: 1.25em;
   font-weight: 700;
 }
 
@@ -256,7 +258,7 @@ ul.menu li {
 }
 ul.menu li a {
   display: inline-block;
-  padding: .5em;
+  padding: .5em .7em;
 }
 ul.menu li a:hover {
   color: #e06c6c;
@@ -325,7 +327,7 @@ i.fa-bars {
   .main-nav nav {
     width: 70%;
     position: absolute;
-    left: -70%;
+    right: -70%;
     top: 0;
     height: 100%;
     background: #283550;
@@ -358,23 +360,22 @@ i.fa-bars {
   }
 
   .open-panel {
-    float: left;
-    margin-right: 2em;
+    float: right;
   }
 
   .close-panel {
     position: relative;
-    top: .5em;
+    top: .85em;
     left: 1em;
   }
 
   .openNav #page {
-    left: 0;
-    -webkit-transform: translate3d(70%, 0, 0);
-    -moz-transform: translate3d(70%, 0, 0);
-    -ms-transform: translate3d(70%, 0, 0);
-    -o-transform: translate3d(70%, 0, 0);
-    transform: translate3d(70%, 0, 0);
+    right: 0;
+    -webkit-transform: translate3d(-70%, 0, 0);
+    -moz-transform: translate3d(-70%, 0, 0);
+    -ms-transform: translate3d(-70%, 0, 0);
+    -o-transform: translate3d(-70%, 0, 0);
+    transform: translate3d(-70%, 0, 0);
     -webkit-transition: -webkit-transform 400ms ease;
     -moz-transition: -moz-transform 400ms ease;
     -o-transition: -o-transform 400ms ease;
@@ -383,7 +384,7 @@ i.fa-bars {
 
   /* When the panel is closed, transition the page back to the left */
   #page {
-    left: 0;
+    right: 0;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
@@ -427,7 +428,7 @@ i.fa-bars {
   }
 }
 .recipe-list {
-  padding: 3em 0 5em 0;
+  padding: 3em 0 3em 0;
 }
 .recipe-list h2 {
   padding: 0 0 .35em 0;
@@ -568,19 +569,22 @@ i.fa-chevron-right {
     margin-bottom: 0;
   }
 }
-.archive h2 {
+.archive .recipe-list {
+  padding-bottom: 0;
+}
+.archive .recipe-list h2 {
   border-bottom: none;
 }
-.archive h3 {
+.archive .recipe-list h3 {
   font-size: 1.5em;
   font-weight: 700;
   margin: 0;
   line-height: 1;
 }
-.archive ul li:first-child {
+.archive .recipe-list ul li:first-child {
   padding-top: 0;
 }
-.archive ul li:last-child {
+.archive .recipe-list ul li:last-child {
   margin-bottom: 3em;
 }
 
@@ -609,6 +613,9 @@ i.fa-chevron-right {
 .footer-nav ul li a:hover {
   color: #758bba;
   text-decoration: underline;
+}
+.footer-nav ul li a i.fa {
+  font-size: 1.2em;
 }
 
 @media screen and (max-width: 50em) {
