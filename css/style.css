@@ -396,6 +396,11 @@ i.fa-bars {
     transition: transform 400ms ease;
   }
 }
+@media screen and (max-width: 40.63em) {
+  .logo {
+    padding-top: 0;
+  }
+}
 .intro {
   padding: 2em 0 5em 0;
   background-color: #324264;
@@ -482,11 +487,14 @@ i.fa-bars {
 
 .post-page {
   margin-bottom: 3em;
+  padding-top: 1.5em;
 }
 .post-page h1 {
+  margin-bottom: .5em;
   font-size: 3em;
   font-weight: 700;
   letter-spacing: -.05em;
+  line-height: 1.2;
 }
 .post-page h2 {
   margin: 1em 0 .5em 0;
@@ -569,6 +577,15 @@ i.fa-chevron-right {
     margin-bottom: 0;
   }
 }
+@media screen and (max-width: 50em) {
+  .recipe-instructions p, .recipe-instructions ul, .recipe-instructions ol {
+    font-size: 18px;
+  }
+
+  .article-nav {
+    font-size: .8125em;
+  }
+}
 .archive .recipe-list {
   padding-bottom: 0;
 }
@@ -609,25 +626,18 @@ i.fa-chevron-right {
 .footer-nav ul li a {
   color: #324264;
   text-decoration: none;
+  padding-top: .35em;
 }
 .footer-nav ul li a:hover {
   color: #758bba;
   text-decoration: underline;
 }
 .footer-nav ul li a i.fa {
-  font-size: 1.2em;
+  font-size: 1.7em;
 }
 
 @media screen and (max-width: 50em) {
   .footer-nav {
     float: none;
-  }
-  .footer-nav ul li {
-    float: none;
-    margin-right: 0;
-  }
-  .footer-nav ul li a {
-    display: block;
-    padding: 1em 0;
   }
 }

@@ -1,10 +1,13 @@
 .post-page {
   margin-bottom: 3em;
+  padding-top: 1.5em;
 
     h1 {
+      margin-bottom: .5em;
       font-size: 3em;
       font-weight: 700;
       letter-spacing: -.05em;
+      line-height: 1.2;
     }
 
     h2 {
@@ -102,5 +105,17 @@ i.fa-chevron-right {
     p {
       margin-bottom: 0;
     }
+  }
+}
+
+@include responsive(50em) {
+  .recipe-instructions {
+      p, ul, ol {
+        font-size: 18px;
+      }
+  }
+
+  .article-nav {
+    font-size: .8125em;
   }
 }

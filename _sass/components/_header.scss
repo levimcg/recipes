@@ -213,4 +213,10 @@ i.fa-bars {
   }
 }
 
+@include responsive(40.63em) {
+  .logo {
+    padding-top: 0;
+  }
+}
+
 

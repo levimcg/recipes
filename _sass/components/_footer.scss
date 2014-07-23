@@ -20,6 +20,7 @@
         a {
           color: $color-brand-primary;
           text-decoration: none;
+          padding-top: .35em;
 
             &:hover {
               color: lighten($color-brand-primary, 30%);
@@ -27,7 +28,7 @@
             }
 
              i.fa {
-            font-size: 1.2em;
+            font-size: 1.7em;
             }
         }
     }
@@ -36,16 +37,6 @@
 @include responsive(50em) {
   .footer-nav {
     float: none;
-
-    ul li {
-      float: none;
-      margin-right: 0;
-
-      a {
-        display: block;
-        padding: 1em 0;
-      }
-    }
   }
 
 } 
