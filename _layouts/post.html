@@ -13,27 +13,26 @@ layout: default
       </div>
     </div>
   </header>
-
-  <article class="recipe-instructions">
-    <div class="row">
-      <div class="large-7 medium-10 medium-centered columns">
-        <div class="time-wrapper">
-          <div class="time">
-            <p>Prep time: <span class="bold">{{ page.prep }}</span></p>
-          </div>
-          <div class="time">
-            <p>Cook time: <span class="bold">{{ page.cook }}</span></p>
+  <section class="content">
+    <article>
+      <div class="row">
+        <div class="large-7 medium-10 medium-centered columns">
+          <div class="time-wrapper">
+            <div class="time">
+              <p>Prep time: <span class="bold">{{ page.prep }}</span></p>
+            </div>
+            <div class="time">
+              <p>Cook time: <span class="bold">{{ page.cook }}</span></p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-
-      <div class="large-7 medium-10 medium-centered columns">
-        {{ content }}
-        {% include article-nav.html %}
+      <div class="row">
+        <div class="large-7 medium-10 medium-centered columns">
+          {{ content }}
+          {% include article-nav.html %}
+        </div>
       </div>
-    
-    </div>
-  </article>
+    </article>
+  </section>
 </div>
