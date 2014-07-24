@@ -1,0 +1,58 @@
+.content {
+  padding-top: 3em;
+
+    h2 {
+      margin: 1em 0 .5em 0;
+      font-size: 1.75em;
+      font-weight: 700;
+      letter-spacing: -.03em;
+    }
+
+    h3 {
+      margin: 1em 0 .5em 0;
+      font-size: 1.25em;
+      font-weight: 700;
+    }
+
+    ul {
+      margin-left: 1.1em;
+      list-style-type: disc;
+
+        li {
+          margin-bottom: .5em;
+        }
+    }
+
+    ol {
+      margin-left: 1.1em;
+      list-style-type: decimal;
+
+        li {
+          padding: 1em 0;
+
+            &:first-child {
+              padding-top: 0;
+            }
+        }
+    }
+
+    strong {
+      font-weight: 700;
+    }
+
+    em {
+      font-style: italic;
+    }
+}
+
+@include responsive(50em) {
+  .content {
+      p, ul, ol {
+        font-size: 18px;
+      }
+  }
+
+  .article-nav {
+    font-size: .8125em;
+  }
+}
