@@ -231,13 +231,6 @@ p {
   margin-bottom: .4em;
   float: left;
 }
-.logo h1 {
-  line-height: 0;
-}
-.logo a {
-  display: inline-block;
-  font-weight: 700;
-}
 
 #content {
   clear: both;
@@ -258,7 +251,8 @@ ul.menu li {
 }
 ul.menu li a {
   display: inline-block;
-  padding: .5em .7em;
+  padding: .5em .5em;
+  font-size: .8125em;
 }
 ul.menu li a:hover {
   color: #e06c6c;
@@ -277,6 +271,10 @@ ul.menu li i {
 }
 
 .archive-page .archive-nav {
+  color: #e06c6c;
+}
+
+.about-page .about-nav {
   color: #e06c6c;
 }
 
@@ -485,62 +483,75 @@ i.fa-bars {
   font-weight: 700;
 }
 
+.content {
+  padding-top: 3em;
+}
+.content h2 {
+  margin: 1em 0 .5em 0;
+  font-size: 1.75em;
+  font-weight: 700;
+  letter-spacing: -.03em;
+}
+.content h3 {
+  margin: 1em 0 .5em 0;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+.content ul {
+  margin-left: 1.1em;
+  list-style-type: disc;
+}
+.content ul li {
+  margin-bottom: .5em;
+}
+.content ol {
+  margin-left: 1.1em;
+  list-style-type: decimal;
+}
+.content ol li {
+  padding: 1em 0;
+}
+.content ol li:first-child {
+  padding-top: 0;
+}
+.content strong {
+  font-weight: 700;
+}
+.content em {
+  font-style: italic;
+}
+
+@media screen and (max-width: 50em) {
+  .content p, .content ul, .content ol {
+    font-size: 18px;
+  }
+
+  .article-nav {
+    font-size: .8125em;
+  }
+}
 .post-page {
   margin-bottom: 3em;
   padding-top: 1.5em;
 }
-.post-page h1 {
+
+.post-header {
+  padding-top: 2em;
+}
+.post-header h1 {
   margin-bottom: .5em;
   font-size: 3em;
   font-weight: 700;
   letter-spacing: -.05em;
   line-height: 1.2;
 }
-.post-page h2 {
-  margin: 1em 0 .5em 0;
-  font-size: 1.75em;
-  font-weight: 700;
-  letter-spacing: -.03em;
-}
-.post-page h3 {
-  margin: 1em 0 .5em 0;
-  font-size: 1.25em;
-  font-weight: 700;
-}
-.post-page ul {
-  margin-left: 1.1em;
-  list-style-type: disc;
-}
-.post-page ul li {
-  margin-bottom: .5em;
-}
-.post-page ol {
-  margin-left: 1.1em;
-  list-style-type: decimal;
-}
-.post-page ol li {
-  padding: 1em 0;
-}
-.post-page ol li:first-child {
-  padding-top: 0;
-}
-.post-page strong {
-  font-weight: 700;
-}
-.post-page em {
-  font-style: italic;
-}
-
-.post-header {
-  padding-top: 2em;
-}
 .post-header .post-description {
   font-weight: 300;
   letter-spacing: -.025em;
 }
 
-.post-description {
-  margin-bottom: 1em;
+.post-description p {
+  margin-bottom: 0;
   font-size: 2em;
   line-height: 1.2;
 }
@@ -575,15 +586,6 @@ i.fa-chevron-right {
 
   .post-description p {
     margin-bottom: 0;
-  }
-}
-@media screen and (max-width: 50em) {
-  .recipe-instructions p, .recipe-instructions ul, .recipe-instructions ol {
-    font-size: 18px;
-  }
-
-  .article-nav {
-    font-size: .8125em;
   }
 }
 .archive .recipe-list {
