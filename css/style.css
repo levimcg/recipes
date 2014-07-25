@@ -226,8 +226,8 @@ p {
 }
 
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   margin-bottom: .4em;
   float: left;
 }
@@ -251,7 +251,7 @@ ul.menu li {
 }
 ul.menu li a {
   display: inline-block;
-  padding: .5em .5em;
+  padding: .9em .5em .5em .5em;
   font-size: .8125em;
 }
 ul.menu li a:hover {
@@ -408,6 +408,7 @@ i.fa-bars {
 .intro h1 {
   font-size: 3em;
   font-weight: 700;
+  letter-spacing: -.03em;
   color: #e06c6c;
 }
 .intro p {
@@ -484,7 +485,7 @@ i.fa-bars {
 }
 
 .content {
-  padding-top: 3em;
+  padding: 3em 0 1.5em 0;
 }
 .content h2 {
   margin: 1em 0 .5em 0;
@@ -519,6 +520,9 @@ i.fa-bars {
 }
 .content em {
   font-style: italic;
+}
+.content img {
+  margin-bottom: 1.5em;
 }
 
 @media screen and (max-width: 50em) {
