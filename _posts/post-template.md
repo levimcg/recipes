@@ -1,11 +1,11 @@
 ---
-title: XXXXX
+title: XXX
 layout: post
 body: archive-page
-description: XXXXX 
-prep: XXXXX
-cook: XXXXX
-categories: XXXXX
+description: XXX
+prep: XXX
+cook: XXX
+categories: XXX
 ---
 
 ## Indgredients
