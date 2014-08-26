@@ -17,7 +17,7 @@ desc "Design, write, and edit live."
 task :default => [:clean] do
   pids = [
     spawn("jekyll serve -w --baseurl '' "),
-    spawn("sass --watch _sass/style.scss:css/style.css --style expanded")
+    spawn("sass --watch _sass/style.scss:css/style-min.css --style compressed")
   ]
 
   trap "INT" do
