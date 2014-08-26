@@ -3,8 +3,8 @@ title: XXX
 layout: post
 body: archive-page
 description: XXX
-prep: XXX
-cook: XXX
+prep: XX minutes
+cook: XX minutes
 categories: XXX
 ---
 
