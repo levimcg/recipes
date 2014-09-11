@@ -22,6 +22,7 @@
 
 .post-description {
   p {
+    font-family: $heading-font-family;
     margin-bottom: 0;
     font-size: 2em;
     line-height: 1.2;
@@ -31,6 +32,7 @@
 .time {
   float: left;
   margin-right: 1em;
+  font-family: $heading-font-family;
 
     p {
       margin-bottom: 0;

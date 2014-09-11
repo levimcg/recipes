@@ -47,11 +47,17 @@
 }
 
 .category-meta {
+  margin-top: 1.5em;
   font-size: .8125em;
-  color: $color-quiet
+  font-family: $heading-font-family;
+  color: $color-quiet;
+
+    p {
+      margin-bottom: .5em;
+    }
 }
 
 .category-link {
-  color: $color-brand-primary;
+  color: $color-brand-secondary;
   font-weight: 700;
 }
