@@ -13,7 +13,7 @@
     h3 {
       font-size: 2em;
       font-weight: 700;
-      letter-spacing: -.035em;
+      letter-spacing: -.02em;
 
         a {
           color: $color-brand-primary;
@@ -33,6 +33,7 @@
 
     @include responsive(40.063em) {
       h3 {
+        margin-bottom: .35em;
         line-height: 1.1;
       }
     }
