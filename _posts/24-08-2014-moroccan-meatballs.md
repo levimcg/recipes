@@ -1,5 +1,5 @@
 ---
-title: Moroccan spiced Meatballs
+title: Moroccan Spiced Meatballs
 layout: post
 body: archive-page
 description: A simple meatball recipe made with a North African blend of spices and fresh mint
