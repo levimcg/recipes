@@ -2,14 +2,14 @@
 title: Red Lentil Soup	
 layout: post
 body: archive-page
-description: Red lentils and lots of spices make this a great soup for early fall. Also, it doesn't hurt that it's so simple to make.
+description: Red lentils and lots of spices make this a great soup for early fall. Also, it doesn't hurt that it's so dang simple to make.
 prep: 15 minutes
 cook: 45 minutes
 categories: soups
 ---
 
 ## About
-I got the original recipe for this from my friend Jennifer. She got it from a cookbook of which I've completely forgot the title. I've made this soup a ton of times—adding a few things, taking away a few others, to the point where I'm not sure how much it even resembles the original. That's what I love about recipes. They are great starting point, but over time you can really make them your own.
+I got the original recipe for this from my friend Jennifer. She got it from a cook book of which I've completely forgot the title. I've made this soup a ton of times—adding a few things, taking away a few others, to the point where I'm not sure how much it even resembles the original. That's what I love about recipes. They are great starting point, but over time you can really make them your own.
 
 ## Indgredients
 - 1 16oz. package of red lentils
