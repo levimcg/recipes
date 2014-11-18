@@ -30,11 +30,19 @@
 @include responsive(40.063em) {
   .intro {
     padding: .65em 0 2.5em 0;
-    text-align: center;
+    // text-align: center;
 
       h1 {
         line-height: 1;
         margin-bottom: .5em;
       }
+
+      p {
+        font-size: 1.5em;
+      }
+  }
+
+  .internal {
+    text-align: left;
   }
 }
