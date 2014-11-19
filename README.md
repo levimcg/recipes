@@ -8,3 +8,4 @@ I tend to tweak recipes every time I make a dish. Using Git and GitHub for versi
 - add "Posted on" dates to recipes
 - re-organize archive page, maybe icons for each recipe type?
 - search capability
+- Start adding illustrations for recipes
