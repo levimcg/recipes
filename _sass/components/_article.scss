@@ -29,9 +29,7 @@
   }
 }
 
-.time {
-  float: left;
-  margin-right: 1em;
+.post-meta {
   font-family: $heading-font-family;
 
     p {
@@ -40,8 +38,25 @@
     }
 }
 
-.time .bold {
+.post-meta .bold {
   color: $color-brand-secondary;
+}
+
+.overview {
+  font-size: .8125em;
+
+    h2 {
+      margin-top: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin-left: 0;
+    }
+}
+
+.article-content h2:first-of-type {
+  margin-top: 0;
 }
 
 i.fa-chevron-left {
