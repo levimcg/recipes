@@ -18,21 +18,14 @@ body: archive-page
     <div class="recipe-list">
       <div class="row">
         <div class="medium-8 small-centered columns">
-          {% for category in site.categories %}
-          <div class="row">
-            <div class="medium-3 columns">
-              <h2>{{ category[0] }}</h2>
-            </div>
-            <div class="medium-9 columns">
-              <ul class="archive-posts">
-            {% for post in category[1] %}
-                <li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></li>
-            {% endfor %}
-              </ul>
-            </div>
+            <ul class="archive-posts">
+              {% for post in site.posts %}
+              <li>
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              </li>
+              {% endfor %}
+            </ul>
           </div>
-          {% endfor %}
-        </div>
       </div><!-- End row -->
     </div><!-- End recipe-list -->
   </div><!-- End archive -->
