@@ -1,15 +1,11 @@
 $(document).ready(function() {
 
     $(".open-panel").click(function(){
-
-    $("html").addClass("openNav");
-
+        $("html").addClass("openNav");
     });
 
     $(".close-panel, #content").click(function(){
-
-    $("html").removeClass("openNav");
-
+        $("html").removeClass("openNav");
     });
 
 });
