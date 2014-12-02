@@ -30,3 +30,13 @@ input.search {
 .search-wrapper input {
     color: $color-brand-primary;
 }
+
+@include responsive(50em) {
+    .search-wrapper {
+        margin-bottom: 1em;
+    }
+
+    input.search {
+        font-size: 16px;
+    }
+}

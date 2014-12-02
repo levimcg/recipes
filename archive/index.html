@@ -18,18 +18,26 @@ body: archive-page
     <div id="archive-list" class="recipe-list">
       <div class="search-wrapper">
         <div class="row">
-          <div class="medium-12 medium-centered columns">
+          <div class="medium-10 medium-centered columns">
             <input class="search" type="text" placeholder="Type here to search">
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="medium-7 medium-centered columns">
+        <div class="medium-10 medium-centered columns">
             <ul class="archive-posts list">
               {% for post in site.posts %}
               <li>
-                <h3 class="list-name"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                <p class="list-description">{{ post.description }}</p>
+                <div class="row">
+                  <div class="medium-4 columns archive-meta">
+                    <span class="post-date">{{ post.date | date: '%B %-d, %Y' }}</span>
+                    <span class="post-category">{{ post.categories }}</span>
+                  </div>
+                  <div class="medium-8 columns">
+                    <h3 class="list-name"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                    <p class="list-description">{{ post.description }}</p>
+                  </div>
+                </div>
               </li>
               {% endfor %}
             </ul>
