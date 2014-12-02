@@ -8,5 +8,11 @@ $(document).ready(function() {
         $("html").removeClass("openNav");
     });
 
+    var options = {
+        valueNames: [ 'list-name', 'list-description' ]
+    };
+
+    var userList = new List('archive-list', options);
+
 });
 
