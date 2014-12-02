@@ -1,0 +1,32 @@
+/*--------------------------------------------
+
+    Archive search
+
+--------------------------------------------*/
+
+.search-wrapper {
+    margin-bottom: 3em;
+}
+
+input.search {
+    display: inline-block;
+    border: none;
+    height: auto;
+    background-color: $color-background;
+    box-shadow: none;
+    border-bottom: 1px solid lighten($color-brand-primary, 60%);
+    font-size: 3em;
+    font-weight: 700;
+    color: $color-quiet;
+
+        &:focus {
+            box-shadow: none;
+            color: $color-brand-primary;
+            border-bottom: 1px solid lighten($color-brand-primary, 60%);
+            background-color: $color-background;
+        }
+}
+
+.search-wrapper input {
+    color: $color-brand-primary;
+}
