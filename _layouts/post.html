@@ -5,7 +5,7 @@ layout: default
 <div class="post-page">
   <header class="post-header">
     <div class="row">
-      <div class="medium-9 columns">
+      <div class="medium-12 columns">
         <h1>{{ page.title }}</h1>
         <div class="post-description">
           <p>{{ page.description }}</p>
@@ -16,22 +16,24 @@ layout: default
   <section class="content">
     <article>
       <div class="row">
-        <div class="medium-3 columns">
-          <div class="overview">
-            <div class="post-meta">
-              <ul>
-                <li>Prep time: <span>{{ page.prep }}</span></li>
-                <li>Cook time: <span>{{ page.cook }}</span></li>
-                <li>Categories: <span>{{ page.categories }}</span></li>
-              </ul>
+        <div class="medium-10 medium-centered columns">
+          <div class="row">
+            <div class="medium-4 columns">
+              <div class="overview">
+                <div class="post-meta">
+                  <ul>
+                    <li>Prep time: <span>{{ page.prep }}</span></li>
+                    <li>Cook time: <span>{{ page.cook }}</span></li>
+                    <li>Categories: <span>{{ page.categories }}</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="medium-8 columns article-content">
+              {{ content }}
+              {% include article-nav.html %}
             </div>
           </div>
-        </div>
-        <div class="medium-8 columns article-content">
-          {{ content }}
-          {% include article-nav.html %}
-        </div>
-        <div class="medium-3 columns">
         </div>
       </div>
     </article>
