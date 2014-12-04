@@ -39,6 +39,12 @@
     }
 }
 
+@include responsive(40.064em) {
+  .archive-meta {
+    margin-bottom: 1em;
+  }
+}
+
 .post-date, .post-category {
   font-size: .8em;
 }
