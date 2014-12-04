@@ -3,5 +3,6 @@ tagline: A digital recipe book—These are some of my favorites along with some 
 markdown: redcarpet
 sass:
   sass_dir: _sass
+  style: compressed
 permalink: :categories/:title.html
 exclude: [README.md, Rakefile, Gemfile]
