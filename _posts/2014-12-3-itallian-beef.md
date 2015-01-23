@@ -1,5 +1,5 @@
 ---
-title: Itallian Beef	
+title: Italian Beef	
 layout: post
 body: archive-page
 description: This is a classic slow cooker dish that is cheap, easy to make, and delicous.	
