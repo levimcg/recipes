@@ -7,7 +7,6 @@
     h1 {
       font-size: 3em;
       font-weight: 700;
-      letter-spacing: -.03em;
       color: $color-brand-secondary;
     }
 
@@ -30,7 +29,6 @@
 @include responsive(40.063em) {
   .intro {
     padding: .65em 0 2.5em 0;
-    // text-align: center;
 
       h1 {
         line-height: 1;
