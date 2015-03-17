@@ -8,7 +8,7 @@ cook: 5 minutes passive
 categories: sides
 ---
 
-## Indgredients
+## Ingredients
 - 1 large red onion sliced thin
 - 2 limes (Enough for about 1/2 cup of juice)
 - 1 Tspn. Sugar
