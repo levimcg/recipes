@@ -8,7 +8,7 @@ cook: 45 minutes
 categories: soups
 ---
 
-## Indgredients
+## Ingredients
 - 2 lbs. Ground beef
 - 1 onion finely diced
 - 2 carrots finely diced

@@ -11,7 +11,7 @@ categories: soups
 ## About
 I got the original recipe for this from my friend Jennifer. She got it from a cook book of which I've completely forgot the title. I've made this soup a ton of times—adding a few things, taking away a few others, to the point where I'm not sure how much it even resembles the original. That's what I love about recipes. They are great starting point, but over time you can really make them your own.
 
-## Indgredients
+## Ingredients
 - 1 16oz. package of red lentils
 - 2 quarts of chicken stock
 - 1 14oz. can of diced tomatoes

@@ -8,7 +8,7 @@ cook: 40 minutes
 categories: sides
 ---
 
-## Indgredients
+## Ingredients
 - 2 lbs small new potatoes
 - 2 TBspn olive oil
 - 2 Tspn salt

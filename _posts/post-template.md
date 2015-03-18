@@ -8,7 +8,7 @@ cook: xx minutes
 categories: xxxxxxx
 ---
 
-## Indgredients
+## Ingredients
 
 ## Method
 

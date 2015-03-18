@@ -8,7 +8,7 @@ cook: 10 hours
 categories: Meals
 ---
 
-## Indgredients
+## Ingredients
 - (1) 3 lb. Top/bottom round beef roast
 - 2 cups beef broth or stock
 - 1 package dry Itallian salad dressing mix

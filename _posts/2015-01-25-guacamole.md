@@ -8,7 +8,7 @@ cook: n/a
 categories: starters
 ---
 
-## Indgredients
+## Ingredients
 - 2 Avacados
 - 2 Cloves of garlic 
 - 1 Roma or similar size tomato diced

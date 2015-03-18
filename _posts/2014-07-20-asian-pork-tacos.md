@@ -8,7 +8,7 @@ cook: 70-80 minutes
 categories: Meals
 ---
 
-## Indgredients
+## Ingredients
 - (1) 1.5—2 lbs. pork loin
 - 2 TBspns fresh ginger peeled and minced
 - 4 cloves of garlic minced

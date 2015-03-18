@@ -8,7 +8,7 @@ cook: 8-10 days
 categories: starters
 ---
 
-## Indgredients
+## Ingredients
 - 1 10oz. jar of whole (with the pits) Kalamata olives
 - 2 jalapeño peppers quartered
 - 1 lemon

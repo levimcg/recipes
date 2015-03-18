@@ -8,7 +8,7 @@ cook: 20 minutes
 categories: Sides
 ---
 
-## Indgredients
+## Ingredients
 - 3 small zucchini sliced
 - 1 pint of cherry or grape tomatoes
 - 1 small bunch of fresh mint chopped

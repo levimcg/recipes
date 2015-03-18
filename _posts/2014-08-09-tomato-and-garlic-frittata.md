@@ -8,7 +8,7 @@ cook: 40 minutes
 categories: meals
 ---
 
-## Indgredients
+## Ingredients
 - 8 eggs
 - 6 strips of bacon
 - 1/2 quart of grape tomatoes halved

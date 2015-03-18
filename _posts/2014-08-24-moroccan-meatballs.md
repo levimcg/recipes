@@ -8,7 +8,7 @@ cook: 30 minutes
 categories: Meals
 ---
 
-## Indgredients
+## Ingredients
 - 1lb. Ground beef
 - 1lb. Ground lamb or pork
 - 1/2 Tspn. ground cumin
