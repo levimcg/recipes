@@ -25,4 +25,4 @@ categories: sides
 7. Let the onions cool on the counter for about five minutes, close up the jar, and put them in the refrigerator. They should last for about a week in the fridge.
 
 ## Serving Tips
-These onions are great as a condiment on all kinds of tacos and sandwiches. The acidy really mellows out the onion-y taste and makes for really bright flavor that goes great with heavily seasoned taco meats.
+These onions are great as a condiment on all kinds of tacos and sandwiches. The acidity really mellows out the onion-y taste and makes for really bright flavor that goes great with heavily seasoned taco meats.
