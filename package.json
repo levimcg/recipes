@@ -1,0 +1,26 @@
+{
+  "name": "recipe-book",
+  "version": "2.0.0",
+  "description": "Website source for a collection of some of my favorite recipes, as well as some new ones I'm just trying out.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx eleventy --serve",
+    "build": "npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levimcg/recipe-book.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/levimcg/recipe-book/issues"
+  },
+  "homepage": "https://github.com/levimcg/recipe-book#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "postcss-import": "^12.0.1"
+  }
+}

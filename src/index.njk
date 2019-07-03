@@ -1,0 +1,24 @@
+---
+title: Home
+---
+{% extends 'layouts/base.njk' %}
+{% from 'recipe-teaser.njk' import recipeTeaser %}
+
+{% block main %}
+<div class="wrapper">
+  <ol class="plain-list recipe-list">
+    {% for recipe in collections.recipes  | reverse %}
+    <li>
+      {{-
+        recipeTeaser({
+          title: recipe.data.title,
+          description: recipe.data.description,
+          url: recipe.url,
+          tags: recipe.data.tags
+        })
+      -}}
+    </li>
+    {% endfor %}
+  </ol>
+</div>
+{% endblock %}
