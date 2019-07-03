@@ -1,0 +1,27 @@
+.recipe-header__title {
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+.recipe-header__description {
+  margin-top: var(--s-3);
+  font-size: var(--s2);
+}
+
+.recipe-header__illo {
+  margin-bottom: var(--s4);
+}
+
+@media screen and (min-width: 740px) {
+  .recipe-header {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    display: flex;
+  }
+  
+  .recipe-header__illo {
+    flex-basis: 500px;
+    flex-shrink: 0;
+    margin-bottom: 0;
+  }
+}
