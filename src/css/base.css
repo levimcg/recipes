@@ -63,3 +63,16 @@ img {
   width: 100%;
   display: block;
 }
+
+.button {
+  display: inline-flex;
+  text-decoration: none;
+  color: var(--color-background);
+  background-color: var(--color-text);
+  padding: var(--s-2) var(--s0);
+  transition: all .2s ease;
+}
+
+.button:hover {
+  background-color: var(--color-accent);
+}

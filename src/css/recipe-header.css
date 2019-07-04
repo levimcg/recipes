@@ -9,6 +9,7 @@
 }
 
 .recipe-header__illo {
+  margin-top: var(--s4);
   margin-bottom: var(--s4);
 }
 
@@ -22,6 +23,7 @@
   .recipe-header__illo {
     flex-basis: 500px;
     flex-shrink: 0;
+    margin-top: 0;
     margin-bottom: 0;
   }
 }

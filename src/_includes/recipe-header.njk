@@ -3,6 +3,7 @@
   <div class="recipe-header__body">
     <h1 class="recipe-header__title">{{ params.title }}</h1>
     <p class="recipe-header__description">{{ params.description }}</p>
+    {% if params.url %}<a class="button" href="{{ params.url }}">Read recipe</a>{% endif %}
   </div>
   {% if params.illo %}
   <div class="recipe-header__illo">

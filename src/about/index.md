@@ -10,5 +10,5 @@ A couple of years ago while visiting my mom at Christmas, I came across <a href=
 
 I love to make food, and I think I'm a pretty decent cook, but I've never had a recipe book to speak of, and I've never really written down my recipes in any central location. I also design and make websites for a living so when I decided to start archiving my own recipes I thought, why not make a _digital_ recipe book?
 
-I decided to store my recipes and host this website on [Github](http://www.github.io), a service usually used to collaborate on software projects, especially open-source ones. This gives me the freedom to perfect recipes, with the ability to go back to previous versions to see how they change over time.
+I decided to store my recipes and host this website on Github, a service usually used to collaborate on software projects, especially open-source ones. This gives me the freedom to perfect recipes, with the ability to go back to previous versions to see how they change over time.
 
