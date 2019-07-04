@@ -7,7 +7,7 @@
     "start": "run-p -c serve watch:css",
     "serve": "npx eleventy --serve",
     "watch:css": "npx gulp watchFiles",
-    "build": "npx eleventy"
+    "build": "npx eleventy && npx gulp compileCSS"
   },
   "repository": {
     "type": "git",

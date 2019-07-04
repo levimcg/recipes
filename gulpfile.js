@@ -15,6 +15,7 @@ function watchFiles(cb) {
   cb();
 }
 
+exports.compileCSS = compileCSS;
 exports.watchFiles = watchFiles;
 exports.default = watchFiles;
 
