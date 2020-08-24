@@ -1,7 +1,5 @@
 ---
 title: About
-tagline: My super-nerdy recipe book
-body: about-page
 layout: "layouts/page.njk"
 ---
 

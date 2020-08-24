@@ -6,7 +6,7 @@ title: Home
 {% from 'recipe-header.njk' import recipeHeader %}
 
 {% block main %}
-<div class="wrapper">
+{# <div class="wrapper">
   {%- set newestRecipe = collections.recipes | last -%}
   {{-
     recipeHeader({
@@ -16,11 +16,10 @@ title: Home
       url: newestRecipe.url
     })
   -}}
-</div>
+</div> #}
 <div class="wrapper wrapper--small">
   <ol class="plain-list recipe-list">
     {% for recipe in collections.recipes | reverse %}
-    {% if loop.index !== 1 %}
     <li>
       {{-
         recipeTeaser({
@@ -31,7 +30,6 @@ title: Home
         })
       -}}
     </li>
-    {% endif %}
     {% endfor %}
   </ol>
 </div>

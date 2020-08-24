@@ -4,7 +4,7 @@
   --color-text: #192948;
   --color-ruler: #d0dbdb;
   --color-accent: #e70000;
-  --color-background: #f8ffff;
+  --color-background: #fffdf6;
   
   --ratio: 1.2;
   --s-3: calc(var(--s-2) / var(--ratio));
