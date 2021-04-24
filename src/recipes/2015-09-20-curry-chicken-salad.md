@@ -15,7 +15,6 @@ ingredients:
   - 1 Cup of white grapes
   - 4 Scallions finely chopped
 tags:
-  - recipes
   - salads
 ---
 ## Method

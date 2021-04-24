@@ -1,4 +1,5 @@
 ---
+date: 2014-09-26
 title: Red Lentil Soup	
 body: archive-page
 description: Red lentils and lots of spices make this a great soup for early fall. Also, it doesn't hurt that it's so dang simple to make.
@@ -20,7 +21,6 @@ ingredients:
   - Salt
 tags:
   - soups
-  - recipes
   - vegetarian
 ---
 

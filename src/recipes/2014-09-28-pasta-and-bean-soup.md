@@ -1,4 +1,5 @@
 ---
+date: 2014-09-28
 title: Pasta & Bean Soup	
 body: archive-page
 description: This is just a mid-west version of pasta e fagioli (think Olive Garden). It's really fast to make and is hearty enough to be a meal on it's own.	
@@ -26,7 +27,6 @@ ingredients:
   - salt
 tags:
   - soups
-  - recipes
 ---
 ## Method
 1. Heat the olive oil in a large Dutch oven or soup pot. Once the oil is hot add the onion, carrot, and celery. Cook for about five minutes, or until the onion is translucent. Add the garlic and cook for two more minutes, making sure not to let the garlic get brown.

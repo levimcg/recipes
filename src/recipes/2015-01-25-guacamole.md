@@ -1,4 +1,5 @@
 ---
+date: 2015-01-25
 title: Guacamole
 body: archive-page
 description: Super simple guacamole with lots of garlic and lime juice. Make sure to use a mortar and pestle on this. It makes a huge difference.	
@@ -14,7 +15,6 @@ ingredients:
 tags:
   - starters
   - vegetarian
-  - recipes
 ---
 ## Method
 1. Peel the garlic and put it in the mortar and pestle with about a  teaspoon of salt. Crush the garlic until it is paste-like. It will sort of look like a mashed up banana.

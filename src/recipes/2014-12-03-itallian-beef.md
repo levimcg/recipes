@@ -1,4 +1,5 @@
 ---
+date: 2014-12-03
 title: Italian Beef	
 body: archive-page
 description: This is a classic slow cooker dish that is cheap, easy to make, and delicious.	
@@ -14,7 +15,6 @@ ingredients:
   - 1 Jar of banana peppers
   - Salt
 tags: 
-  - recipes
   - slowcooker
 ---
 ## Method

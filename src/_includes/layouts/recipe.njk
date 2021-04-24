@@ -2,18 +2,15 @@
 
 {% block main %}
   <div class="post">
-    <div class="flow p-y-500">      
+    <div class="flow p-top-500 p-bottom-100">      
       <h1>{{ title }}</h1>
       <p>{{ description }}</p>
       <time>{{ date | dateFormatted }}</time>
+      {% for tag in tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
     </div>
     <div class="post__content [ flow p-y-400 ]">
-      <h2>Ingredients</h2>
-      <ul>
-        {% for ingredient in ingredients %}
-        <li>{{ ingredient }}</li>
-        {% endfor %}
-      </ul>
       {{ content | safe }}
     </div>
   </div>

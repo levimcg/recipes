@@ -1,4 +1,5 @@
 ---
+date: 2014-06-07
 title: Pozole Rojo
 body: archive-page
 description: A traditional Mexican soup with pork and hominy.
@@ -15,7 +16,6 @@ ingredients:
   - 1 TBspn dry oregano (preferably Mexican oregano)
 tags:
   - soups
-  - recipes
 ---
 ## About
 This is an adaptation of another recipe I found online. The original can be found [here](http://www.simplyrecipes.com/recipes/posole_rojo/).

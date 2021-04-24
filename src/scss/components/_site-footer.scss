@@ -1,0 +1,14 @@
+.site-footer {
+  padding-top: var(--size-400);
+  padding-bottom: var(--size-400);
+  background-color: rgb(252, 190, 179);
+  flex-shrink: 0;
+
+  &__inner {
+    width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+  }
+}

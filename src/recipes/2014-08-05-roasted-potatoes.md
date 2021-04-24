@@ -1,4 +1,5 @@
 ---
+date: 2014-08-05
 title: Roasted Potatoes
 body: archive-page
 description: This makes a quick side dish of simple roasted new potatoes with olive oil and parsley. Parboiling the potatoes first really makes the whole thing, so don't skip this step.
@@ -13,7 +14,6 @@ ingredients:
   - black pepper
 tags: 
   - sides
-  - recipes
   - vegetarian
 ---
 ## Method

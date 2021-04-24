@@ -1,4 +1,5 @@
 ---
+date: 2014-07-19
 title: Roasted Tomatoes and Zucchini 
 body: archive-page
 description: Simple roasted, charred vegetables  with fresh mint.
@@ -13,7 +14,6 @@ ingredients:
   - Fresh black pepper
 tags:
   - sides
-  - recipes
   - vegetarian
 ---
 ## Method

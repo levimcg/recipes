@@ -1,4 +1,5 @@
 ---
+date: 2014-06-05
 title: Saffron Rice
 description: This is a simple, and a little bit fancy side dish that goes great with a piece of grilled meat, or fish. It's a riff on risotto, but is way less labor-intensive.
 prep: 5-10 minutes
@@ -13,7 +14,6 @@ ingredients:
   - 1-2 TBspn fresh parsley chopped
   - Salt to taste
 tags:
-  - recipes
   - sides
 ---
 ## Method

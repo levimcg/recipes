@@ -1,20 +1,33 @@
 ---
-title: Pickled Red Onions
+date: 2015-03-16
+title: "Pickled Red Onions"
 body: archive-page
 description: These easy pickled onions make a great condiment for tacos and sandwiches. 
 prep: 5 minutes
 cook: 5 minutes passive
-illo: pickled-red-onions-illo-web.png
 ingredients:
   - 1 large red onion sliced thin
-  - 2 limes (Enough for about 1/2 cup of juice)
+  - "2 limes (Enough for about 1/2 cup of juice)"
   - 1 Tspn. Sugar
   - 5-8 cloves
   - 1/2 Tspn. Dried oregano
 tags:
   - sides
-  - recipes
 ---
+## Ingredients
+<ul>
+  {%- for ingredient in ingredients -%}
+  <li>{{ ingredient }}</li>
+  {%- endfor -%}
+</ul>
+
+{% image {
+  webpSrc: "/img/pickled-red-onion-1.webp",
+  jpgSrc: "/img/pickled-red-onion-1.jpeg",
+  alt: "A jar of freshly pickled bright pink red onions",
+  caption: "Fresh-made pickled onions"
+} %}
+
 ## Method
 1. Put a kettle full of water on to boil. Peel the onion, cut it in half, slice it as thin as you can, and place in a glass/non-reactive bowl .
 2. Squeeze the juice from the limes into a measuring cup. You should end up with about 1/2 cup of juice. Dissolve the sugar in the lime juice and set aside.

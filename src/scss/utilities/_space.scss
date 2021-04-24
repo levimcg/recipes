@@ -13,4 +13,17 @@
     padding-top: #{$rem};
     padding-bottom: #{$rem};
   }
+  
+  .m-top-#{$size} {
+    margin-top: #{$rem};
+  }
+  
+  .m-bottom-#{$size} {
+    margin-bottom: #{$rem};
+  }
+  
+  .m-y-#{$size} {
+    margin-top: #{$rem};
+    margin-bottom: #{$rem};
+  }
 }

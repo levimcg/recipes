@@ -5,7 +5,7 @@ title: Home
 
 {% block main %}
   <ul>
-  {% for recipe in collections.recipes %}
+  {% for recipe in collections.recipes | reverse %}
     <li><a href="{{ recipe.url }}">{{ recipe.data.title }}</a></li>
   {% endfor %}
   </ul>

@@ -3,6 +3,7 @@
 :root {
   --color-background: rgb(252, 233, 229);
   --color-text: rgb(54, 18, 13);
+  --color-text-light: #827270;
   --color-ruler: rgb(216, 197, 194);
   
   @each $size, $rem in tokens.$sizes {

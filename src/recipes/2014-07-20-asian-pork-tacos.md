@@ -1,4 +1,5 @@
 ---
+date: 2014-07-20
 title: Asian Pork Tacos
 body: archive-page
 description: Korean fusion style tacos with marinated pork loin, fresh cucumber, and cilantro. 
@@ -20,7 +21,6 @@ prep: 15 minutes + 24 hours marinating
 cook: 70-80 minutes
 tags:
   - asian
-  - recipes
 ---
 ## Method
 1. Place the pork loin in a gallon size plastic freezer bag. In a separate bowl mix together the soy sauce, rice vinegar, sesame oil, garlic, ginger, red pepper flakes and sugar then pour the mixture into the bag make sure to evenly coat the pork loin. Put the pork loin in a shallow baking dish and marinate in the refrigerator for at least 8 hours, but 24 is better if you have the time.

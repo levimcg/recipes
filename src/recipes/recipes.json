@@ -1,4 +1,3 @@
 {
-  "tags": "recipes",
   "layout": "layouts/recipe.njk"
 }
