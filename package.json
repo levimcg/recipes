@@ -7,7 +7,9 @@
     "start": "npm-run-all -p -c serve sass:dev",
     "serve": "npx eleventy --serve",
     "sass:dev": "sass --load-path=node_modules src/scss:site/css --watch",
-    "build": "npx eleventy"
+    "sass:build": "sass --load-path=node_modules --style=compressed  src/scss:site/css",
+    "eleventy:build": "npx eleventy",
+    "build": "npm-run-all -s eleventy:build sass:build"
   },
   "repository": {
     "type": "git",
