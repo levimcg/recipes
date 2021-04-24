@@ -2,35 +2,11 @@
 title: Home
 ---
 {% extends 'layouts/base.njk' %}
-{% from 'recipe-teaser.njk' import recipeTeaser %}
-{% from 'recipe-header.njk' import recipeHeader %}
 
 {% block main %}
-{# <div class="wrapper">
-  {%- set newestRecipe = collections.recipes | last -%}
-  {{-
-    recipeHeader({
-      title: newestRecipe.data.title,
-      description: newestRecipe.data.description,
-      illo: newestRecipe.data.illo,
-      url: newestRecipe.url
-    })
-  -}}
-</div> #}
-<div class="wrapper wrapper--small">
-  <ol class="plain-list recipe-list">
-    {% for recipe in collections.recipes | reverse %}
-    <li>
-      {{-
-        recipeTeaser({
-          title: recipe.data.title,
-          description: recipe.data.description,
-          url: recipe.url,
-          tags: recipe.data.tags
-        })
-      -}}
-    </li>
-    {% endfor %}
-  </ol>
-</div>
-{% endblock %}
+  <ul>
+  {% for recipe in collections.recipes %}
+    <li><a href="{{ recipe.url }}">{{ recipe.data.title }}</a></li>
+  {% endfor %}
+  </ul>
+{% endblock main %}

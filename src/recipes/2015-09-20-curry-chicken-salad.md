@@ -1,4 +1,5 @@
 ---
+date: 2015-09-20
 title: Curry Chicken Salad
 body: archive-page
 description: Creamy, fruity, just a little bit spicy—a fresh take on an old classic

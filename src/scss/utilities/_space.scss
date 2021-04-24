@@ -1,0 +1,16 @@
+@use '../core/tokens' as tokens;
+
+@each $size, $rem in tokens.$sizes {
+  .p-top-#{$size} {
+    padding-top: #{$rem};
+  }
+  
+  .p-bottom-#{$size} {
+    padding-bottom: #{$rem};
+  }
+  
+  .p-y-#{$size} {
+    padding-top: #{$rem};
+    padding-bottom: #{$rem};
+  }
+}

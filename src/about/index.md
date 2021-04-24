@@ -1,6 +1,6 @@
 ---
 title: About
-layout: "layouts/page.njk"
+layout: "layouts/recipe.njk"
 ---
 
 ![Old recipe book with new](/img/recipe-book.png)

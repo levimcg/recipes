@@ -1,9 +1,16 @@
+const dateTime = require('./src/filters/dateTime');
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/img');
-  eleventyConfig.addPassthroughCopy('src/js');
+  eleventyConfig.setBrowserSyncConfig({
+    open: 'local'
+  });
   
-  eleventyConfig.setDataDeepMerge(true);
-  
+  eleventyConfig.addFilter('dateFormatted', dateTime);
+
+  // Watch targets
+  eleventyConfig.addWatchTarget('./src/scss/');
+
   return {
     dir: {
       input: 'src',
